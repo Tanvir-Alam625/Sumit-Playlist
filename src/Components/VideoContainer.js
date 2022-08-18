@@ -21,7 +21,7 @@ const VideoContainer = () => {
         </div>
        <ReactPlayer className="w-full" url={`https://www.youtube.com/watch?v=${videoPlaylist[player]?.videoId}`} controls={true}/>
        </div>
-      <div className='videoList w-full lg:w-[40%]  bg-[#242637] p-4 rounded-md '>
+      <div className='videoList w-full lg:w-[40%]  bg-[#030F21] p-4 rounded-md '>
         <h4 className='text-center text-xl font-extrabold text-gray-300 mb-2'>List of Video</h4>
         <div className='max-h-[400px] overflow-y-scroll'>
             {
