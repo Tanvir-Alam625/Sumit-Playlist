@@ -23,7 +23,7 @@ const VideoContainer = () => {
        </div>
       <div className='videoList w-full lg:w-[40%]  bg-[#030F21] p-4 rounded-md '>
         <h4 className='text-center text-xl font-extrabold text-gray-300 mb-2'>List of Video</h4>
-        <div className='max-h-[400px] overflow-y-scroll'>
+        <div className='playlist max-h-[400px] overflow-y-scroll'>
             {
                 videoPlaylist.map((video,index)=> <VideoList video={video} key={index} index={index} player={player} setPlayer={setPlayer}/> )
             }

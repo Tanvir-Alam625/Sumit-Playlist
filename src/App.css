@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.playlist::-webkit-scrollbar{
+  width: 10px;
+}
+.playlist::-webkit-scrollbar-track{
+  height: 100%;
+}
+.playlist::-webkit-scrollbar-thumb{
+  background-color: #282c34;
+  border-radius:20px;
+  transition: 400ms ease-in-out;
+}
+.playlist::-webkit-scrollbar-thumb:hover{
+  background-color: #2a3447;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
